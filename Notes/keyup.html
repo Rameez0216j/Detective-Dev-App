@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <h1>HTML DOM Events</h1>
+    <h2>The onkeydown Event</h2>
+
+    <p>Press a key in the input field:</p>
+
+    <input id="input" type="text" onkeyup="myFunction()">
+
+    <p id="demo"></p>
+
+    <script>
+      const ele = document.getElementById("input");
+      function myFunction() {
+        document.getElementById("demo").innerHTML = `You pressed a key inside the input field ${ele.value}`;
+      }
+
+ 
+      input.addEventListener("keydown", function (e) {
+        // explore below if statement in console for better understanding
+        console.log(e);
+        console.log(window.event);
+      });
+    </script>
+
+  </body>
+
+</html>

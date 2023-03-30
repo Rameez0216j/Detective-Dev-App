@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <h1>HTML DOM Events</h1>
+    <h2>The onkeydown Event</h2>
+
+    <p>Press a key in the input field:</p>
+
+    <input id="input" type="text" onkeydown="myFunction()">
+
+    <p id="demo"></p>
+
+    <script>
+      const ele = document.getElementById("input");
+      function myFunction() {
+        document.getElementById("demo").innerHTML = `You pressed a key inside the input field ${ele.value}`;
+      }
+    </script>
+
+  </body>
+
+</html>

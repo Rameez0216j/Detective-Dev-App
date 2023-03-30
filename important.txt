@@ -1,0 +1,7 @@
+Explore about fav icons
+Explore about header tag,main tag.
+Input type search
+<a href="#" target="_blank" rel="noopener noreferrer" id="user"></a>
+explore svg icons on internet
+
+explore arguments of addEventListener(_._,false);
